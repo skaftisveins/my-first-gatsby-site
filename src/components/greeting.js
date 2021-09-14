@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 const Greeting = (props) => {
-    return (
-        <div>
-            <p>Hi {props.name}</p>
-        </div>
-    )
-}
+  return (
+    <div>
+      <p>Hi {props.name}</p>
+    </div>
+  );
+};
 
-export default Greeting
+export default Greeting;
